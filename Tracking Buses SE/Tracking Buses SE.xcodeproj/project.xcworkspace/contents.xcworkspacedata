@@ -4,7 +4,11 @@
    <FileRef
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       location = "self:">
+=======
+      location = "self:Tracking Buses SE.xcodeproj">
+>>>>>>> parent of 2ecdafb... Merge branch 'master' of https://github.com/samwelch1/TrackingBuses
 =======
       location = "self:Tracking Buses SE.xcodeproj">
 >>>>>>> parent of 2ecdafb... Merge branch 'master' of https://github.com/samwelch1/TrackingBuses
