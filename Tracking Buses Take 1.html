@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Distance Matrix service</title>
+    <style>
+      
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 94%;
+      
+      }
+      
+    </style>
+    
+        
+      
+  </head>
+  <body>
+    <div id="floating-panel">
+      <b>Your Bus #: </b>
+      <select id="Bus">
+        <option value="1">Bus 1</option>
+        <option value="2">Bus 2</option>
+        
+      </select>
+   
+    <b>Bus Location: </b>
+    <select id="start">
+      <option value="41.870,-87.630">Bus1</option>
+      <option value="40.000,-90.000">Bus2</option>
+      <option value="40.510,-74.000">Bus3</option>
+      <option value="40.708,-74.000">Bus4</option>
+      <option value="41.755,-88.141">Cafe</option>
+    </select>
+    <b>Your Loaction: </b>
+    <select id="end">
+      <option value="40.710,-74.000">You</option>
+      <option value="41.760,-88.156">Nap C</option>
+      
+    </select>
+
+    </div>
+      <div id="output"></div>
+    </div>
+    <div id="map"></div>
+    <script src = "bus.js">
+
+
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx_9NH3YgjvvcOjM26IWvOv5AkNfeC8ys&callback=initMap">
+    </script>
+  </body>
+</html>
