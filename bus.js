@@ -163,12 +163,7 @@ var markersArray = [];
               return function(results, status) {
                 if (status === 'OK') {
                     map.fitBounds(bounds.extend(results[0].geometry.location));
-                  /**markersArray.pop();
-                  markersArray.push(new google.maps.Marker({
-                    map: map,
-                    position: results[0].geometry.location,
-                    icon: icon
-                  }));*/
+    
 
                 } else {
                   alert('Geocode was not successful due to: ' + status);
