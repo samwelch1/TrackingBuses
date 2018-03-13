@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		992EEC8C20506740000806C6 /* Tracking Buses Take 1.html in Resources */ = {isa = PBXBuildFile; fileRef = 992EEC8B2050673F000806C6 /* Tracking Buses Take 1.html */; };
+		992D02272056EBB600AA8E98 /* Tracking Buses Take 1.html in Resources */ = {isa = PBXBuildFile; fileRef = 992D02262056EBB600AA8E98 /* Tracking Buses Take 1.html */; };
 		99497193204874AF0042581C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99497192204874AF0042581C /* AppDelegate.swift */; };
 		99497195204874AF0042581C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99497194204874AF0042581C /* ViewController.swift */; };
 		99497198204874AF0042581C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99497196204874AF0042581C /* Main.storyboard */; };
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		992EEC8B2050673F000806C6 /* Tracking Buses Take 1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Tracking Buses Take 1.html"; sourceTree = "<group>"; };
+		992D02262056EBB600AA8E98 /* Tracking Buses Take 1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Tracking Buses Take 1.html"; path = "../../Tracking Buses Take 1.html"; sourceTree = "<group>"; };
 		9949718F204874AF0042581C /* Tracking Buses SE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tracking Buses SE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99497192204874AF0042581C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99497194204874AF0042581C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 		99497191204874AF0042581C /* Tracking Buses SE */ = {
 			isa = PBXGroup;
 			children = (
-				992EEC8B2050673F000806C6 /* Tracking Buses Take 1.html */,
+				992D02262056EBB600AA8E98 /* Tracking Buses Take 1.html */,
 				99497192204874AF0042581C /* AppDelegate.swift */,
 				99497194204874AF0042581C /* ViewController.swift */,
 				99497196204874AF0042581C /* Main.storyboard */,
@@ -235,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				992D02272056EBB600AA8E98 /* Tracking Buses Take 1.html in Resources */,
 				9949719D204874AF0042581C /* LaunchScreen.storyboard in Resources */,
 				9949719A204874AF0042581C /* Assets.xcassets in Resources */,
 				99497198204874AF0042581C /* Main.storyboard in Resources */,
@@ -245,7 +246,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				992EEC8C20506740000806C6 /* Tracking Buses Take 1.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

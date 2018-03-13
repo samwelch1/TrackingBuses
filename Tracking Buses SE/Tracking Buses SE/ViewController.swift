@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let htmlpath = Bundle.main.path(forResource: "TrackingBusesTake1", ofType: "html")
+        let htmlpath = Bundle.main.path(forResource: "Tracking Buses Take 1", ofType: "html")
         let url = URL(fileURLWithPath: htmlpath!)
         let request = URLRequest(url: url)
         htmlload.load(request)
