@@ -2,13 +2,10 @@ var markersArray = [];
 
       function initMap() {
        
-        var test = 1;
-        BUSNUM = 1;
-
-      
+        var BUSNUM = 1;
+  
       
       var origin = document.getElementById('end').value;
-      var destination = document.getElementById('start').value;
       
       var la = parseFloat(origin.substring(0,6));
       var ln = parseFloat(origin.substring(7));
@@ -39,7 +36,7 @@ var markersArray = [];
       
        
 
-        var directionsService = new google.maps.DirectionsService;
+        var directionsService = new google.maps.DirectionsService();
         
         var directionsDisplay = new google.maps.DirectionsRenderer({ markerOptions: markerOption });
 
@@ -186,11 +183,7 @@ var markersArray = [];
               }
             }
           }
-        })
-
-
-
-
+        });
 
 
         directionsService.route({
