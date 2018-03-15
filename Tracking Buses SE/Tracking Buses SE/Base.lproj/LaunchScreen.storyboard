@@ -18,13 +18,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NapervilleCentHSlogo" translatesAutoresizingMaskIntoConstraints="NO" id="tKU-qR-vYk">
-                                <rect key="frame" x="49" y="80" width="278" height="309"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="NapervilleCentHSlogo" translatesAutoresizingMaskIntoConstraints="NO" id="tKU-qR-vYk">
+                                <rect key="frame" x="48" y="93" width="278" height="309"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="309" id="Ayg-yL-Ybe"/>
+                                    <constraint firstAttribute="width" constant="278" id="TER-hr-2Cw"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szt-V8-kg0">
-                                <rect key="frame" x="0.0" y="397" width="375" height="270"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szt-V8-kg0">
+                                <rect key="frame" x="0.0" y="377" width="375" height="270"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="270" id="Ov9-wb-MTm"/>
+                                    <constraint firstAttribute="width" constant="375" id="m54-ej-HiX"/>
+                                </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Yung Botch Inc.">
                                         <attributes>
@@ -38,6 +44,14 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="szt-V8-kg0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AYd-Gn-JWZ"/>
+                            <constraint firstItem="tKU-qR-vYk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="MAn-2r-UWt"/>
+                            <constraint firstItem="szt-V8-kg0" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="178.5" id="UUd-QR-WdK"/>
+                            <constraint firstItem="tKU-qR-vYk" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="eHe-XG-mKJ"/>
+                            <constraint firstItem="tKU-qR-vYk" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="yF5-fY-E5K"/>
+                            <constraint firstItem="tKU-qR-vYk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yax-s5-Vp6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
