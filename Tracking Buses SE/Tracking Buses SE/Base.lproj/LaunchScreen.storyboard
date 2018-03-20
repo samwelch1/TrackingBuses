@@ -25,17 +25,17 @@
                                     <constraint firstAttribute="width" constant="278" id="TER-hr-2Cw"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szt-V8-kg0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szt-V8-kg0">
                                 <rect key="frame" x="12.5" y="377" width="350" height="270"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="270" id="Ov9-wb-MTm"/>
                                     <constraint firstAttribute="width" constant="350" id="m54-ej-HiX"/>
                                 </constraints>
                                 <attributedString key="attributedText">
-                                    <fragment content="Yung Botch Inc.">
+                                    <fragment content="Justin Bakker, Inc.">
                                         <attributes>
                                             <color key="NSColor" red="0.99527573700000005" green="1" blue="0.1348903431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="48" name=".SFNSDisplay"/>
+                                            <font key="NSFont" size="40" name=".SFNSDisplay"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
