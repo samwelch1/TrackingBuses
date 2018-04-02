@@ -1,0 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Tracking Buses SE' do
+    pod 'GoogleMaps', '= 2.6.0'
+end
