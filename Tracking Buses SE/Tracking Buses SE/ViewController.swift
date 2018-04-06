@@ -23,18 +23,13 @@ class ViewController: UIViewController,  CLLocationManagerDelegate{
         mapView.settings.myLocationButton = true
         view = mapView
         
-        // Creates a marker in the center of the map.
-        let marker = GMSMarker()
-        marker.position = CLLocationCoordinate2D(latitude: -33.86, longitude: 151.20)
-        marker.title = "Sydney"
-        marker.snippet = "Australia"
-        marker.map = mapView
-        
+        /*
         // User Location
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.startUpdatingLocation()
+        */
     }
 
     override func didReceiveMemoryWarning() {
