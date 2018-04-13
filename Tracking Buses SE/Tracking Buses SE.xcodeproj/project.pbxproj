@@ -7,7 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D05727C206177D800793743 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D05727B206177D700793743 /* GoogleMapsCore.framework */; };
+		7D7F6C6F205ADF3F007FE0AB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C6E205ADF3F007FE0AB /* Accelerate.framework */; };
+		7D7F6C71205ADF4B007FE0AB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C70205ADF4B007FE0AB /* CoreData.framework */; };
+		7D7F6C73205ADF54007FE0AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C72205ADF54007FE0AB /* CoreGraphics.framework */; };
+		7D7F6C75205ADF60007FE0AB /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C74205ADF60007FE0AB /* CoreImage.framework */; };
+		7D7F6C77205ADF6B007FE0AB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C76205ADF6B007FE0AB /* CoreLocation.framework */; };
+		7D7F6C79205ADF75007FE0AB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C78205ADF75007FE0AB /* CoreTelephony.framework */; };
+		7D7F6C7B205ADF7D007FE0AB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C7A205ADF7D007FE0AB /* CoreText.framework */; };
+		7D7F6C7D205ADF87007FE0AB /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C7C205ADF87007FE0AB /* GLKit.framework */; };
+		7D7F6C7F205ADF92007FE0AB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C7E205ADF92007FE0AB /* ImageIO.framework */; };
+		7D7F6C81205ADFA7007FE0AB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C80205ADFA7007FE0AB /* libc++.tbd */; };
+		7D7F6C83205ADFB0007FE0AB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C82205ADFB0007FE0AB /* libz.tbd */; };
+		7D7F6C85205ADFBB007FE0AB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C84205ADFBB007FE0AB /* OpenGLES.framework */; };
+		7D7F6C87205ADFCA007FE0AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C86205ADFCA007FE0AB /* QuartzCore.framework */; };
+		7D7F6C89205ADFD4007FE0AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C88205ADFD3007FE0AB /* SystemConfiguration.framework */; };
+		7D7F6C8B205ADFDE007FE0AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C8A205ADFDE007FE0AB /* UIKit.framework */; };
+		8CD55B1BE3E43688A9ED7EE7 /* libPods-Tracking Buses SE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F208B4F7AA52365D7457446 /* libPods-Tracking Buses SE.a */; };
 		992D02272056EBB600AA8E98 /* Tracking Buses Take 1.html in Resources */ = {isa = PBXBuildFile; fileRef = 992D02262056EBB600AA8E98 /* Tracking Buses Take 1.html */; };
+		993E0E3A206176C5001255ED /* bus.js in Resources */ = {isa = PBXBuildFile; fileRef = 993E0E39206176C5001255ED /* bus.js */; };
 		99497193204874AF0042581C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99497192204874AF0042581C /* AppDelegate.swift */; };
 		99497195204874AF0042581C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99497194204874AF0042581C /* ViewController.swift */; };
 		99497198204874AF0042581C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99497196204874AF0042581C /* Main.storyboard */; };
@@ -35,7 +53,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F208B4F7AA52365D7457446 /* libPods-Tracking Buses SE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tracking Buses SE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D057278206176F900793743 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		7D057279206176FF00793743 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		7D05727A2061770D00793743 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		7D05727B206177D700793743 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = "../../../../Downloads/GoogleMaps-2.6.0 (1)/Maps/Frameworks/GoogleMapsCore.framework"; sourceTree = "<group>"; };
+		7D7F6C6E205ADF3F007FE0AB /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		7D7F6C70205ADF4B007FE0AB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7D7F6C72205ADF54007FE0AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D7F6C74205ADF60007FE0AB /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		7D7F6C76205ADF6B007FE0AB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7D7F6C78205ADF75007FE0AB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7D7F6C7A205ADF7D007FE0AB /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		7D7F6C7C205ADF87007FE0AB /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		7D7F6C7E205ADF92007FE0AB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		7D7F6C80205ADFA7007FE0AB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7D7F6C82205ADFB0007FE0AB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7D7F6C84205ADFBB007FE0AB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7D7F6C86205ADFCA007FE0AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7D7F6C88205ADFD3007FE0AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7D7F6C8A205ADFDE007FE0AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7DBFAA832064158200AE526B /* libPods-Tracking Buses SE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Tracking Buses SE.a"; path = "../../../../Library/Developer/Xcode/DerivedData/Tracking_Buses_SE-eiokzsdylpmmgwfglywohkxfwmse/Build/Products/Debug-iphoneos/libPods-Tracking Buses SE.a"; sourceTree = "<group>"; };
 		992D02262056EBB600AA8E98 /* Tracking Buses Take 1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Tracking Buses Take 1.html"; path = "../../Tracking Buses Take 1.html"; sourceTree = "<group>"; };
+		993E0E39206176C5001255ED /* bus.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = bus.js; path = ../../bus.js; sourceTree = "<group>"; };
 		9949718F204874AF0042581C /* Tracking Buses SE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tracking Buses SE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99497192204874AF0042581C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99497194204874AF0042581C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +89,8 @@
 		994971AE204874AF0042581C /* Tracking Buses SEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tracking Buses SEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		994971B2204874AF0042581C /* Tracking_Buses_SEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracking_Buses_SEUITests.swift; sourceTree = "<group>"; };
 		994971B4204874AF0042581C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1091F28DAD695AB10C3B25E /* Pods-Tracking Buses SE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tracking Buses SE.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tracking Buses SE/Pods-Tracking Buses SE.release.xcconfig"; sourceTree = "<group>"; };
+		A385A90366AA16776993FB01 /* Pods-Tracking Buses SE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tracking Buses SE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tracking Buses SE/Pods-Tracking Buses SE.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D7F6C8B205ADFDE007FE0AB /* UIKit.framework in Frameworks */,
+				7D7F6C89205ADFD4007FE0AB /* SystemConfiguration.framework in Frameworks */,
+				7D7F6C87205ADFCA007FE0AB /* QuartzCore.framework in Frameworks */,
+				7D7F6C85205ADFBB007FE0AB /* OpenGLES.framework in Frameworks */,
+				7D7F6C83205ADFB0007FE0AB /* libz.tbd in Frameworks */,
+				7D7F6C81205ADFA7007FE0AB /* libc++.tbd in Frameworks */,
+				7D7F6C7F205ADF92007FE0AB /* ImageIO.framework in Frameworks */,
+				7D7F6C7D205ADF87007FE0AB /* GLKit.framework in Frameworks */,
+				7D7F6C7B205ADF7D007FE0AB /* CoreText.framework in Frameworks */,
+				7D7F6C79205ADF75007FE0AB /* CoreTelephony.framework in Frameworks */,
+				7D7F6C77205ADF6B007FE0AB /* CoreLocation.framework in Frameworks */,
+				7D05727C206177D800793743 /* GoogleMapsCore.framework in Frameworks */,
+				7D7F6C75205ADF60007FE0AB /* CoreImage.framework in Frameworks */,
+				7D7F6C73205ADF54007FE0AB /* CoreGraphics.framework in Frameworks */,
+				7D7F6C71205ADF4B007FE0AB /* CoreData.framework in Frameworks */,
+				7D7F6C6F205ADF3F007FE0AB /* Accelerate.framework in Frameworks */,
+				8CD55B1BE3E43688A9ED7EE7 /* libPods-Tracking Buses SE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +135,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D7F6C6D205ADF3E007FE0AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D05727B206177D700793743 /* GoogleMapsCore.framework */,
+				7D7F6C8A205ADFDE007FE0AB /* UIKit.framework */,
+				7D7F6C88205ADFD3007FE0AB /* SystemConfiguration.framework */,
+				7D7F6C86205ADFCA007FE0AB /* QuartzCore.framework */,
+				7D7F6C84205ADFBB007FE0AB /* OpenGLES.framework */,
+				7D7F6C82205ADFB0007FE0AB /* libz.tbd */,
+				7D057278206176F900793743 /* GoogleMapsBase.framework */,
+				7D7F6C80205ADFA7007FE0AB /* libc++.tbd */,
+				7D057279206176FF00793743 /* GoogleMaps.framework */,
+				7D7F6C7E205ADF92007FE0AB /* ImageIO.framework */,
+				7D7F6C7C205ADF87007FE0AB /* GLKit.framework */,
+				7D7F6C7A205ADF7D007FE0AB /* CoreText.framework */,
+				7D7F6C78205ADF75007FE0AB /* CoreTelephony.framework */,
+				7D7F6C76205ADF6B007FE0AB /* CoreLocation.framework */,
+				7D7F6C74205ADF60007FE0AB /* CoreImage.framework */,
+				7D7F6C72205ADF54007FE0AB /* CoreGraphics.framework */,
+				7D7F6C70205ADF4B007FE0AB /* CoreData.framework */,
+				7D7F6C6E205ADF3F007FE0AB /* Accelerate.framework */,
+				0F208B4F7AA52365D7457446 /* libPods-Tracking Buses SE.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		99497186204874AF0042581C = {
 			isa = PBXGroup;
 			children = (
+				7D05727A2061770D00793743 /* GoogleMaps.bundle */,
 				99497191204874AF0042581C /* Tracking Buses SE */,
 				994971A6204874AF0042581C /* Tracking Buses SETests */,
 				994971B1204874AF0042581C /* Tracking Buses SEUITests */,
 				99497190204874AF0042581C /* Products */,
+				7D7F6C6D205ADF3E007FE0AB /* Frameworks */,
+				F07ABFBE2509FF51D6389864 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +187,7 @@
 		99497191204874AF0042581C /* Tracking Buses SE */ = {
 			isa = PBXGroup;
 			children = (
+				993E0E39206176C5001255ED /* bus.js */,
 				992D02262056EBB600AA8E98 /* Tracking Buses Take 1.html */,
 				99497192204874AF0042581C /* AppDelegate.swift */,
 				99497194204874AF0042581C /* ViewController.swift */,
@@ -128,6 +217,16 @@
 			path = "Tracking Buses SEUITests";
 			sourceTree = "<group>";
 		};
+		F07ABFBE2509FF51D6389864 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DBFAA832064158200AE526B /* libPods-Tracking Buses SE.a */,
+				A385A90366AA16776993FB01 /* Pods-Tracking Buses SE.debug.xcconfig */,
+				A1091F28DAD695AB10C3B25E /* Pods-Tracking Buses SE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 994971B7204874AF0042581C /* Build configuration list for PBXNativeTarget "Tracking Buses SE" */;
 			buildPhases = (
+				5A649E1228B5ABDC192053ED /* [CP] Check Pods Manifest.lock */,
 				9949718B204874AF0042581C /* Sources */,
 				9949718C204874AF0042581C /* Frameworks */,
 				9949718D204874AF0042581C /* Resources */,
+				BC4532BA04A9A36071C1F266 /* [CP] Embed Pods Frameworks */,
+				57AD7E6FDF00C14E9E6A9A96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				993E0E3A206176C5001255ED /* bus.js in Resources */,
 				992D02272056EBB600AA8E98 /* Tracking Buses Take 1.html in Resources */,
 				9949719D204874AF0042581C /* LaunchScreen.storyboard in Resources */,
 				9949719A204874AF0042581C /* Assets.xcassets in Resources */,
@@ -257,6 +360,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57AD7E6FDF00C14E9E6A9A96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tracking Buses SE/Pods-Tracking Buses SE-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tracking Buses SE/Pods-Tracking Buses SE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A649E1228B5ABDC192053ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tracking Buses SE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4532BA04A9A36071C1F266 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tracking Buses SE/Pods-Tracking Buses SE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9949718B204874AF0042581C /* Sources */ = {
@@ -428,6 +585,7 @@
 		};
 		994971B8204874AF0042581C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A385A90366AA16776993FB01 /* Pods-Tracking Buses SE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +601,7 @@
 		};
 		994971B9204874AF0042581C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1091F28DAD695AB10C3B25E /* Pods-Tracking Buses SE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
