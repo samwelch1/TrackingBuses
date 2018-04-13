@@ -9,24 +9,72 @@
         margin: 0;
         padding: 0;
       }
+     
+
       #map {
-        height: 94%;
+        height: 98%;
+        position: relative;
       
+        color: white;
+        background-attachment: fixed;     
       }
       
+      #floating-panel2 {
+        position: absolute;
+        top: 10px;
+        left: 72%;
+        z-index: 5;
+        font-family: 'Roboto','sans-serif';
+        font-size: 20px;
+        text-align: center;
+        line-height: 20px;
+        padding-left: 10px;
+        height: 15%;
+        float: right;
+        width: 390px;
+        overflow: auto;
+      }
+
+      
+      
+     #floating-panel {
+        position: absolute;
+        top: 10px;
+        left: 25%;
+       
+        
+        padding: 5px;
+        border: 1px solid #999;
+       
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+        
+       
+        font-size: 14px;
+        font-family: Arial;
+        color:rgb(0,0,0);
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+        background-color: #ff9900;
+       
+      }
+      }
     </style>
     
         
       
   </head>
   <body>
-    <b>Your Loaction: </b>
+    <div id="floating-panel">
+
+    <strong>Bus Stop: </strong>
     <select id="end">
       <option value="40.710,-74.000">You</option>
       <option value="41.760,-88.156">Nap C</option>
       
     </select>
-    <b>Bus Location: </b>
+    <strong>Bus: </strong>
     <select id="start">
       <option value="41.870,-87.630">Bus1</option>
       <option value="40.000,-90.000">Bus2</option>
@@ -35,6 +83,7 @@
     </div>
       <div id="output"></div>
     </div>
+    <div id="floating-panel2"></div>
     <div id="map"></div>
     <script src = "bus.js">
 
