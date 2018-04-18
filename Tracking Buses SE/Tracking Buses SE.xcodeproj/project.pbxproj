@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7D05727C206177D800793743 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D05727B206177D700793743 /* GoogleMapsCore.framework */; };
+		7D17935B2081185000056CBC /* MapTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17935A2081185000056CBC /* MapTasks.swift */; };
 		7D7F6C6F205ADF3F007FE0AB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C6E205ADF3F007FE0AB /* Accelerate.framework */; };
 		7D7F6C71205ADF4B007FE0AB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C70205ADF4B007FE0AB /* CoreData.framework */; };
 		7D7F6C73205ADF54007FE0AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F6C72205ADF54007FE0AB /* CoreGraphics.framework */; };
@@ -58,6 +59,7 @@
 		7D057279206176FF00793743 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		7D05727A2061770D00793743 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
 		7D05727B206177D700793743 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = "../../../../Downloads/GoogleMaps-2.6.0 (1)/Maps/Frameworks/GoogleMapsCore.framework"; sourceTree = "<group>"; };
+		7D17935A2081185000056CBC /* MapTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTasks.swift; sourceTree = "<group>"; };
 		7D7F6C6E205ADF3F007FE0AB /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		7D7F6C70205ADF4B007FE0AB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		7D7F6C72205ADF54007FE0AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -190,6 +192,7 @@
 				993E0E39206176C5001255ED /* bus.js */,
 				992D02262056EBB600AA8E98 /* Tracking Buses Take 1.html */,
 				99497192204874AF0042581C /* AppDelegate.swift */,
+				7D17935A2081185000056CBC /* MapTasks.swift */,
 				99497194204874AF0042581C /* ViewController.swift */,
 				99497196204874AF0042581C /* Main.storyboard */,
 				99497199204874AF0042581C /* Assets.xcassets */,
@@ -420,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D17935B2081185000056CBC /* MapTasks.swift in Sources */,
 				99497195204874AF0042581C /* ViewController.swift in Sources */,
 				99497193204874AF0042581C /* AppDelegate.swift in Sources */,
 			);
