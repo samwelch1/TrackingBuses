@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DirectionsResponse>
+ <status>OK</status>
+ <route>
+  <summary>NJ-495 W and NJ-3 W</summary>
+  <leg>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.7428759</lat>
+     <lng>-74.0058472</lng>
+    </start_location>
+    <end_location>
+     <lat>40.7422925</lat>
+     <lng>-74.0044570</lng>
+    </end_location>
+    <polyline>
+     <points>_rtwFpgubMtBuG</points>
+    </polyline>
+    <duration>
+     <value>34</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Head <b>southeast</b> on <b>W 16th St</b> toward <b>Ninth Ave</b></html_instructions>
+    <distance>
+     <value>134</value>
+     <text>440 ft</text>
+    </distance>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.7422925</lat>
+     <lng>-74.0044570</lng>
+    </start_location>
+    <end_location>
+     <lat>40.7421744</lat>
+     <lng>-74.0045361</lng>
+    </end_location>
+    <polyline>
+     <points>intwFz~tbMVN</points>
+    </polyline>
+    <duration>
+     <value>29</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Turn <b>right</b> at the 1st cross street onto <b>Ninth Ave</b></html_instructions>
+    <distance>
+     <value>15</value>
+     <text>49 ft</text>
+    </distance>
+    <maneuver>turn-right</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.7421744</lat>
+     <lng>-74.0045361</lng>
+    </start_location>
+    <end_location>
+     <lat>40.7416627</lat>
+     <lng>-74.0049708</lng>
+    </end_location>
+    <polyline>
+     <points>qmtwFj_ubMDN@@?@JFXP`@VTN</points>
+    </polyline>
+    <duration>
+     <value>24</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Slight <b>right</b> to stay on <b>Ninth Ave</b></html_instructions>
+    <distance>
+     <value>69</value>
+     <text>226 ft</text>
+    </distance>
+    <maneuver>turn-slight-right</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.7416627</lat>
+     <lng>-74.0049708</lng>
+    </start_location>
+    <end_location>
+     <lat>40.7428273</lat>
+     <lng>-74.0077346</lng>
+    </end_location>
+    <polyline>
+     <points>kjtwF`bubMIVeBlFEN{A|EWr@</points>
+    </polyline>
+    <duration>
+     <value>74</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Turn <b>right</b> onto <b>W 15th St</b></html_instructions>
+    <distance>
+     <value>266</value>
+     <text>0.2 mi</text>
+    </distance>
+    <maneuver>turn-right</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.7428273</lat>
+     <lng>-74.0077346</lng>
+    </start_location>
+    <end_location>
+     <lat>40.7577372</lat>
+     <lng>-73.9968540</lng>
+    </end_location>
+    <polyline>
+     <points>uqtwFhsubMo@c@ ...points truncated in this example</points>
+    </polyline>
+    <duration>
+     <value>365</value>
+     <text>6 mins</text>
+    </duration>
+    <html_instructions>Turn <b>right</b> at the 1st cross street onto <b>10th Ave</b></html_instructions>
+    <distance>
+     <value>1894</value>
+     <text>1.2 mi</text>
+    </distance>
+    <maneuver>turn-right</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.7577372</lat>
+     <lng>-73.9968540</lng>
+    </start_location>
+    <end_location>
+     <lat>40.7581447</lat>
+     <lng>-73.9977895</lng>
+    </end_location>
+    <polyline>
+     <points>{nwwFhosbMoAzD</points>
+    </polyline>
+    <duration>
+     <value>25</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Turn <b>left</b> onto <b>W 39th St</b></html_instructions>
+    <distance>
+     <value>91</value>
+     <text>299 ft</text>
+    </distance>
+    <maneuver>turn-left</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.7581447</lat>
+     <lng>-73.9977895</lng>
+    </start_location>
+    <end_location>
+     <lat>40.7631296</lat>
+     <lng>-74.0094858</lng>
+    </end_location>
+    <polyline>
+     <points>kqwwFdusbMSTINS^ ...points truncated in this example</points>
+    </polyline>
+    <duration>
+     <value>90</value>
+     <text>2 mins</text>
+    </duration>
+    <html_instructions>Slight <b>left</b> onto <b>NY-495 W</b><div style="font-size:0.9em"></div><div style="font-size:0.9em">Entering New Jersey</div></html_instructions>
+    <distance>
+     <value>1134</value>
+     <text>0.7 mi</text>
+    </distance>
+    <maneuver>turn-slight-left</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.7631296</lat>
+     <lng>-74.0094858</lng>
+    </start_location>
+    <end_location>
+     <lat>40.7767179</lat>
+     <lng>-74.0428130</lng>
+    </end_location>
+    <polyline>
+     <points>qpxwFh~ubMsJpZ ...points truncated in this example</points>
+    </polyline>
+    <duration>
+     <value>301</value>
+     <text>5 mins</text>
+    </duration>
+    <html_instructions>Continue onto <b>NJ-495 W</b></html_instructions>
+    <distance>
+     <value>4516</value>
+     <text>2.8 mi</text>
+    </distance>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.7767179</lat>
+     <lng>-74.0428130</lng>
+    </start_location>
+    <end_location>
+     <lat>40.7797406</lat>
+     <lng>-74.0459794</lng>
+    </end_location>
+    <polyline>
+     <points>oe{wFpn|bMc@fAE ...points truncated in this example</points>
+    </polyline>
+    <duration>
+     <value>21</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Keep <b>right</b> at the fork to continue on <b>NJ-3 W</b>, follow signs for <b>New Jersey 3 W</b>/<b>Garden State Parkway</b>/<b>Secaucus</b></html_instructions>
+    <distance>
+     <value>435</value>
+     <text>0.3 mi</text>
+    </distance>
+    <maneuver>fork-right</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.7797406</lat>
+     <lng>-74.0459794</lng>
+    </start_location>
+    <end_location>
+     <lat>40.8041562</lat>
+     <lng>-74.0717843</lng>
+    </end_location>
+    <polyline>
+     <points>kx{wFjb}bMMJGDEB ...points truncated in this example</points>
+    </polyline>
+    <duration>
+     <value>141</value>
+     <text>2 mins</text>
+    </duration>
+    <html_instructions>Keep <b>left</b> to stay on <b>NJ-3 W</b>, follow signs for <b>New Jersey 3 W</b>/<b>Clifton</b></html_instructions>
+    <distance>
+     <value>3560</value>
+     <text>2.2 mi</text>
+    </distance>
+    <maneuver>keep-left</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.8041562</lat>
+     <lng>-74.0717843</lng>
+    </start_location>
+    <end_location>
+     <lat>40.8062905</lat>
+     <lng>-74.0724593</lng>
+    </end_location>
+    <polyline>
+     <points>_q`xFrcbcMSBA?CBI ...points truncated in this example</points>
+    </polyline>
+    <duration>
+     <value>13</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Take the <b>NJ-120 N</b> exit toward <b>E Rutherford</b></html_instructions>
+    <distance>
+     <value>249</value>
+     <text>0.2 mi</text>
+    </distance>
+    <maneuver>ramp-right</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.8062905</lat>
+     <lng>-74.0724593</lng>
+    </start_location>
+    <end_location>
+     <lat>40.8074150</lat>
+     <lng>-74.0725091</lng>
+    </end_location>
+    <polyline>
+     <points>i~`xFzgbcMaFH</points>
+    </polyline>
+    <duration>
+     <value>6</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Keep <b>left</b>, follow signs for <b>State Route 503 N</b>/<b>New Jersey 120 N</b>/<b>Washington Avenue</b>/<b>Moonachie</b>/<b>Paterson Plank Road</b></html_instructions>
+    <distance>
+     <value>125</value>
+     <text>410 ft</text>
+    </distance>
+    <maneuver>keep-left</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.8074150</lat>
+     <lng>-74.0725091</lng>
+    </start_location>
+    <end_location>
+     <lat>40.8145647</lat>
+     <lng>-74.0687893</lng>
+    </end_location>
+    <polyline>
+     <points>keaxFdhbcMc@@ ...points truncated in this example</points>
+    </polyline>
+    <duration>
+     <value>38</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Continue onto <b>NJ-120 N</b></html_instructions>
+    <distance>
+     <value>869</value>
+     <text>0.5 mi</text>
+    </distance>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.8145647</lat>
+     <lng>-74.0687893</lng>
+    </start_location>
+    <end_location>
+     <lat>40.8170874</lat>
+     <lng>-74.0665298</lng>
+    </end_location>
+    <polyline>
+     <points>_rbxF|pacMm@c@} ...points truncated in this example</points>
+    </polyline>
+    <duration>
+     <value>16</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Continue straight onto <b>Washington Ave</b></html_instructions>
+    <distance>
+     <value>339</value>
+     <text>0.2 mi</text>
+    </distance>
+    <maneuver>straight</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.8170874</lat>
+     <lng>-74.0665298</lng>
+    </start_location>
+    <end_location>
+     <lat>40.8143541</lat>
+     <lng>-74.0648063</lng>
+    </end_location>
+    <polyline>
+     <points>yacxFxbacME ...points truncated in this example</points>
+    </polyline>
+    <duration>
+     <value>38</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Turn <b>right</b> onto <b>Paterson Plank Rd</b></html_instructions>
+    <distance>
+     <value>358</value>
+     <text>0.2 mi</text>
+    </distance>
+    <maneuver>turn-right</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.8143541</lat>
+     <lng>-74.0648063</lng>
+    </start_location>
+    <end_location>
+     <lat>40.8141899</lat>
+     <lng>-74.0649819</lng>
+    </end_location>
+    <polyline>
+     <points>upbxF`x`cMTVHH</points>
+    </polyline>
+    <duration>
+     <value>4</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Turn <b>right</b> toward <b>N Connection Rd</b></html_instructions>
+    <distance>
+     <value>24</value>
+     <text>79 ft</text>
+    </distance>
+    <maneuver>turn-right</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.8141899</lat>
+     <lng>-74.0649819</lng>
+    </start_location>
+    <end_location>
+     <lat>40.8138003</lat>
+     <lng>-74.0669371</lng>
+    </end_location>
+    <polyline>
+     <points>uobxFby`cMFHFFFHPPDzATtDFfA</points>
+    </polyline>
+    <duration>
+     <value>25</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Turn <b>right</b> onto <b>N Connection Rd</b></html_instructions>
+    <distance>
+     <value>177</value>
+     <text>0.1 mi</text>
+    </distance>
+    <maneuver>turn-right</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.8138003</lat>
+     <lng>-74.0669371</lng>
+    </start_location>
+    <end_location>
+     <lat>40.8149711</lat>
+     <lng>-74.0728354</lng>
+    </end_location>
+    <polyline>
+     <points>gmbxFjeacMDjA@ ...points truncated in this example</points>
+    </polyline>
+    <duration>
+     <value>73</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Continue straight onto <b>Rd D</b></html_instructions>
+    <distance>
+     <value>548</value>
+     <text>0.3 mi</text>
+    </distance>
+    <maneuver>straight</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.8149711</lat>
+     <lng>-74.0728354</lng>
+    </start_location>
+    <end_location>
+     <lat>40.8145050</lat>
+     <lng>-74.0727291</lng>
+    </end_location>
+    <polyline>
+     <points>qtbxFfjbcMf@AHAFA^MBA</points>
+    </polyline>
+    <duration>
+     <value>28</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Turn <b>left</b> onto <b>MetLife Stadium Dr</b><div style="font-size:0.9em">Destination will be on the right</div></html_instructions>
+    <distance>
+     <value>53</value>
+     <text>174 ft</text>
+    </distance>
+    <maneuver>turn-left</maneuver>
+   </step>
+   <duration>
+    <value>1345</value>
+    <text>22 mins</text>
+   </duration>
+   <distance>
+    <value>14856</value>
+    <text>9.2 mi</text>
+   </distance>
+   <start_location>
+    <lat>40.7428759</lat>
+    <lng>-74.0058472</lng>
+   </start_location>
+   <end_location>
+    <lat>40.8145050</lat>
+    <lng>-74.0727291</lng>
+   </end_location>
+   <start_address>75 Ninth Ave, New York, NY 10011, USA</start_address>
+   <end_address>1 MetLife Stadium Dr, East Rutherford, NJ 07073, USA</end_address>
+   <duration_in_traffic>
+    <value>1417</value>
+    <text>24 mins</text>
+   </duration_in_traffic>
+  </leg>
+  <copyrights>Map data ©2015 Google</copyrights>
+  <overview_polyline>
+   <points>_rtwFpgubMtBuG ...points truncated in this example</points>
+  </overview_polyline>
+  <bounds>
+   <southwest>
+    <lat>40.7416627</lat>
+    <lng>-74.0728354</lng>
+   </southwest>
+   <northeast>
+    <lat>40.8171321</lat>
+    <lng>-73.9968540</lng>
+   </northeast>
+  </bounds>
+ </route>
+ <geocoded_waypoint>
+  <geocoder_status>OK</geocoder_status>
+  <type>premise</type>
+  <place_id>ChIJyYfhZ79ZwokRMtXcL6CYxkA</place_id>
+ </geocoded_waypoint>
+ <geocoded_waypoint>
+  <geocoder_status>OK</geocoder_status>
+  <type>street_address</type>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ8YWMWnz4wokRCOVf1CcJCbY</place_id>
+ </geocoded_waypoint>
+</DirectionsResponse>

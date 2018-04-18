@@ -37,6 +37,7 @@ var markersArray = [];
        
 
         var directionsService = new google.maps.DirectionsService();
+
         
         var directionsDisplay = new google.maps.DirectionsRenderer({ markerOptions: markerOption });
 
@@ -45,21 +46,19 @@ var markersArray = [];
         
 
         directionsDisplay.setMap(map);
+        directionsDisplay.setPanel(document.getElementById('floating-panel2'));
+
+         var control = document.getElementById('floating-panel');
+        control.style.display = 'block';
+        map.controls[google.maps.ControlPosition.TOP_CENTER].push(control);
 
         var onChangeHandler = function() {
           calculateAndDisplayRoute(directionsService, directionsDisplay, map);
         };
         document.getElementById('start').addEventListener('change', onChangeHandler);
         document.getElementById('end').addEventListener('change', onChangeHandler);
-        
-
-        
+ 
       }
-
-      
-
-
-
 
       function calculateAndDisplayRoute(directionsService, directionsDisplay, map) {
 
@@ -71,13 +70,13 @@ var markersArray = [];
         var destination = document.getElementById('start').value;
 
 
-        var image = {
+        var bus = {
      
             url: 'https://thomasbuiltbuses.com/content/uploads/2017/02/2.1hero.jpg',
-            size: new google.maps.Size(71, 71),
+            size: new google.maps.Size(100, 100),
             origin: new google.maps.Point(0, 0),
             anchor: new google.maps.Point(17, 34),
-            scaledSize: new google.maps.Size(25, 25)
+            scaledSize: new google.maps.Size(100, 100)
           };
 
 
@@ -127,68 +126,18 @@ var markersArray = [];
        var Bus = new google.maps.Marker({
           position: {lat: laD, lng:lnD},
           map: map,
-          icon: image
+          icon: bus
         });
 
       markersArray.push(User);
       markersArray.push(Bus);
         
-        var geocoder = new google.maps.Geocoder;
-
-        var service = new google.maps.DistanceMatrixService;
-        service.getDistanceMatrix({
-          origins: [origin],
-          destinations: [destination],
-          travelMode: 'DRIVING',
-          unitSystem: google.maps.UnitSystem.METRIC,
-          avoidHighways: false,
-          avoidTolls: false
-        }, function(response, status) {
-          if (status !== 'OK') {
-            alert('Error was: ' + status);
-          } else {
-         
-            var originList = response.originAddresses;
-            var destinationList = response.destinationAddresses;
-            var outputDiv = document.getElementById('output');
-            outputDiv.innerHTML = '';
-            
-
-
-            var showGeocodedAddressOnMap = function(asDestination) {
-              var icon = asDestination ? destinationIcon : originIcon;
-              return function(results, status) {
-                if (status === 'OK') {
-                    map.fitBounds(bounds.extend(results[0].geometry.location));
-    
-
-                } else {
-                  alert('Geocode was not successful due to: ' + status);
-                }
-              };
-            };
-
-            
-            
-            for (var i = 0; i < originList.length; i++) {
-              var results = response.rows[i].elements;
-              geocoder.geocode({'address': originList[i]},
-                  showGeocodedAddressOnMap(false));
-              for (var j = 0; j < results.length; j++) {
-                geocoder.geocode({'address': destinationList[j]},
-                    showGeocodedAddressOnMap(true));
-                outputDiv.innerHTML += originList[i] + ' to ' + destinationList[j] +
-                    ': ' + results[j].distance.text + ' in ' +
-                    results[j].duration.text + '<br>';
-              }
-            }
-          }
-        });
-
+        
+      
 
         directionsService.route({
-          origin: origin,
-          destination: destination,
+          origin: destination,
+          destination: origin,
           travelMode: 'DRIVING'
         }, function(response, status) {
           if (status === 'OK') {
