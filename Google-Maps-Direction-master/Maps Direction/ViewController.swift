@@ -41,7 +41,7 @@ class ViewController: UIViewController , GMSMapViewDelegate ,  CLLocationManager
 		locationManager.startMonitoringSignificantLocationChanges()
 		
 		//Your map initiation code
-		let camera = GMSCameraPosition.camera(withLatitude: -7.9293122, longitude: 112.5879156, zoom: 15.0)
+		let camera = GMSCameraPosition.camera(withLatitude: 41.8781, longitude: -87.6298, zoom: 15.0)
 		
 		self.googleMaps.camera = camera
 		self.googleMaps.delegate = self
@@ -50,7 +50,7 @@ class ViewController: UIViewController , GMSMapViewDelegate ,  CLLocationManager
 		self.googleMaps.settings.compassButton = true
 		self.googleMaps.settings.zoomGestures = true
 		
-        //var Chicago = CLLocation(latitude: 41.8781, longitude: 87.6298)
+        //var Chicago = CLLocation(latitude: 41.8781, longitude: -87.6298)
         //var LA = CLLocation(latitude: 34.0522, longitude: 118.2437)
         
         //drawPath(startLocation: LA, endLocation: Chicago)
@@ -78,13 +78,13 @@ class ViewController: UIViewController , GMSMapViewDelegate ,  CLLocationManager
 		
 //		let camera = GMSCameraPosition.camera(withLatitude: (location?.coordinate.latitude)!, longitude: (location?.coordinate.longitude)!, zoom: 17.0)
 		
-		let locationTujuan = CLLocation(latitude: 37.784023631590777, longitude: -122.20486681461333)
+		let Chicago = CLLocation(latitude: 41.8781, longitude: -87.6298)
 		
-		createMarker(titleMarker: "Lokasi Tujuan", iconMarker: #imageLiteral(resourceName: "mapspin") , latitude: locationTujuan.coordinate.latitude, longitude: locationTujuan.coordinate.longitude)
+		createMarker(titleMarker: "Chicago", iconMarker: #imageLiteral(resourceName: "schoolbus-1501332_960_720"), latitude: Chicago.coordinate.latitude, longitude: Chicago.coordinate.longitude)
 		
-        createMarker(titleMarker: "Lokasi Aku", iconMarker: #imageLiteral(resourceName: "mapspin") , latitude: (location?.coordinate.latitude)!, longitude: (location?.coordinate.longitude)!)
+        //createMarker(titleMarker: "Lokasi Aku", iconMarker: #imageLiteral(resourceName: "mapspin") , latitude: (location?.coordinate.latitude)!, longitude: (location?.coordinate.longitude)!)
 		
-		drawPath(startLocation: location!, endLocation: locationTujuan)
+		drawPath(startLocation: location!, endLocation: Chicago)
 		
 //		self.googleMaps?.animate(to: camera)
         

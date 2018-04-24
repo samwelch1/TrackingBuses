@@ -132,7 +132,7 @@
 				TargetAttributes = {
 					B53AFF231E4C6F9600E6862C = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = B2NF8DM5P8;
+						DevelopmentTeam = 5PVQJ7XV6V;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -345,10 +345,11 @@
 			baseConfigurationReference = 1738764621D53AFF496D788D /* Pods-MapsDirection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = B2NF8DM5P8;
+				DEVELOPMENT_TEAM = 5PVQJ7XV6V;
 				INFOPLIST_FILE = "Maps Direction/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.balitax.MapsDirection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.balitax.FindMyBus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -359,10 +360,11 @@
 			baseConfigurationReference = 9A192784464974B423B6F08C /* Pods-MapsDirection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = B2NF8DM5P8;
+				DEVELOPMENT_TEAM = 5PVQJ7XV6V;
 				INFOPLIST_FILE = "Maps Direction/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.balitax.MapsDirection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.balitax.FindMyBus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
