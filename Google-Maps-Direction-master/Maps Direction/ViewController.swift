@@ -52,9 +52,7 @@ class ViewController: UIViewController , GMSMapViewDelegate ,  CLLocationManager
 		
         //var Chicago = CLLocation(latitude: 41.8781, longitude: -87.6298)
         //var LA = CLLocation(latitude: 34.0522, longitude: 118.2437)
-        
         //drawPath(startLocation: LA, endLocation: Chicago)
-        
 	}
 	
 	// MARK: function for create a marker pin on map
@@ -79,12 +77,13 @@ class ViewController: UIViewController , GMSMapViewDelegate ,  CLLocationManager
 //		let camera = GMSCameraPosition.camera(withLatitude: (location?.coordinate.latitude)!, longitude: (location?.coordinate.longitude)!, zoom: 17.0)
 		
 		let Chicago = CLLocation(latitude: 41.8781, longitude: -87.6298)
-		
+		let somewhere = CLLocation(latitude: 40.8781, longitude: -87.6298)
 		createMarker(titleMarker: "Chicago", iconMarker: #imageLiteral(resourceName: "schoolbus-1501332_960_720"), latitude: Chicago.coordinate.latitude, longitude: Chicago.coordinate.longitude)
 		
         //createMarker(titleMarker: "Lokasi Aku", iconMarker: #imageLiteral(resourceName: "mapspin") , latitude: (location?.coordinate.latitude)!, longitude: (location?.coordinate.longitude)!)
 		
-		drawPath(startLocation: location!, endLocation: Chicago)
+		//drawPath(startLocation: location!, endLocation: Chicago)
+        drawPath(startLocation: somewhere, endLocation: Chicago)
 		
 //		self.googleMaps?.animate(to: camera)
         
@@ -144,19 +143,36 @@ class ViewController: UIViewController , GMSMapViewDelegate ,  CLLocationManager
 			let json = JSON(data: response.data!)
 			let routes = json["routes"].arrayValue
             
-			
+            var duration = ""
 			// print route using Polyline
 			for route in routes
 			{
 				let routeOverviewPolyline = route["overview_polyline"].dictionary
 				let points = routeOverviewPolyline?["points"]?.stringValue
+                duration = route["duration"].stringValue
 				let path = GMSPath.init(fromEncodedPath: points!)
 				let polyline = GMSPolyline.init(path: path)
 				polyline.strokeWidth = 4
 				polyline.strokeColor = UIColor.red
 				polyline.map = self.googleMaps
 			}
-			//self.createMarker(titleMarker: "Sosa", iconMarker: #imageLiteral(resourceName: "mapspin") , latitude: 37.9, longitude: -122)
+            // CGRectMake has been deprecated - and should be let, not var
+            let label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
+            
+            // you will probably want to set the font (remember to use Dynamic Type!)
+            label.font = UIFont.preferredFont(forTextStyle: .footnote)
+            
+            // and set the text color too - remember good contrast
+            label.textColor = .black
+            
+            // may not be necessary (e.g., if the width & height match the superview)
+            // if you do need to center, CGPointMake has been deprecated, so use this
+            label.center = CGPoint(x: 160, y: 284)
+            
+            // this changed in Swift 3 (much better, no?)
+            label.textAlignment = .center
+            label.text = duration
+            self.view.addSubview(label)
 		}
 	}
 	
